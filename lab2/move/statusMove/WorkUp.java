@@ -8,7 +8,7 @@ public class WorkUp extends StatusMove {
     }
     @Override
     protected void applySelfEffects(Pokemon p){
-        p.setMod(Stat.ATTACK, 1); //Устанавливает модификатор характеристики
+        p.setMod(Stat.ATTACK, 1); 
         p.setMod(Stat.SPECIAL_ATTACK, 1);
 
     }
